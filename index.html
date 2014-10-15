@@ -104,7 +104,11 @@
 
 		</style>
 
-		<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+		<!--[if lt IE 9]>
+		<style>
+		</style>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
 	</head>
 	<body>
 
@@ -112,7 +116,13 @@
 		<header class="ual-header">
 			<div class="banner__logo">
 				<div class="wrapper">
-					<a href="http://www.arts.ac.uk/" title="University of the Arts London website"><img src="img/logo-white@36px.svg" alt="University of the Arts London logo"></a>
+					<a href="http://www.arts.ac.uk/" title="University of the Arts London website">
+						<!-- <svg width="145" height="36">
+							<image xlink:href="img/logo-white@36px.svg" src="img/logo-white@36px.png" width="145" height="36"/>
+						</svg>
+<img src="img/logo-white@36px.svg" alt="University of the Arts London logo"> -->
+						<img src="img/logo-white@36px.svg" onerror="this.src=img/logo-white@36px.png">
+					</a>
 				</div>
 			</div>
 			<div class="banner__title">
