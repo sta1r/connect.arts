@@ -1,4 +1,4 @@
-ual-third-party
-===============
+Connect
+=======
 
-Code and assets for UAL third-party websites
+Landing page for [connect.arts.ac.uk](http://connect.arts.ac.uk)
